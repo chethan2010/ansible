@@ -9,5 +9,5 @@
   - name: start nginx
     ansible.bultin.service:
       name: nginx
-      state: stated
+      state: started
       enabled: yes
