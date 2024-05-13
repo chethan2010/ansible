@@ -1,7 +1,7 @@
 - name: variables
   hosts: localhost
   vars_files:
-  - vars.yaml
+  - vars.yam l
   tasks:  #TASK LEVEL
   - name: print override information
     ansible.builtin.debug:
