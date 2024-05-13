@@ -1,4 +1,4 @@
-- name: varible from user
+- name: variables from user
   hosts: localhost
   vars_prompt:
   - name: USERNAME
