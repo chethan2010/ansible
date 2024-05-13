@@ -8,9 +8,9 @@
   - name: print override inforamtion
     vars:
       course: "Devops"
-    ansible.builtin.debug:
-     msg:"Hi, we are learning  {{course}} Duration  is {{Duration}} "
+      ansible.builtin.debug:
+        msg:"Hi, we are learning {{course}} Duration is {{Duration}} "
   
   - name: print inforamtion
     ansible.builtin.debug:
-     msg:"Hi, we are learning  {{course}} Duration  is {{Duration}} "
+       msg:"Hi, we are learning  {{course}} Duration  is {{Duration}} "
