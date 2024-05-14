@@ -3,9 +3,13 @@
   vars: wishes
   vars_files:
   - vars.yaml
+  vars_prompt:
+  - name: wishes
+    prompt: Please enter wishes
+    private: false
   tasks:
   - name: checkpreferences
     vars:
       wishes: "Morning task from variable"
-      ansible.builtin.debug:
+    ansible.builtin.debug:
         msg:"Hello, good morning {{wishes}}"
