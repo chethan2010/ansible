@@ -1,9 +1,9 @@
 - name: check number
   hosts: localhost
   vars_prompt:
-    - name: number
-      prompt: Please enter number
-      Private: no
+  - name: number
+    prompt: Please enter number
+    Private: no
   tasks:
   - name: number is less than 10
     ansible.builtin.debug:
