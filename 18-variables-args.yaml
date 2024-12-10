@@ -1,0 +1,6 @@
+- name: variables from args
+  hosts: localhost
+  tasks:
+    - name: get from args
+      ansisble.builtin.debug:
+       msg: "Hi iam {{Person}} and {{Wishes}}"
