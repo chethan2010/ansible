@@ -11,3 +11,43 @@
   - name: print information
     ansible.builtin.debug:
       msg: "Hi, Username: {{USERNAME}}. Password is: {{PASSWORD}}"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# - name: variable from Prompt
+#   hosts: local host
+#   vars_prompt:
+#   - name : USERNAME
+#     prompt: Please Enter UserName
+#     private: false
+#   - name : PASSWORD
+#     prompt: Please Enter Password
+#     private: true
+#   tasks:
+#   - name: Print Information
+#     ansible.builtin.debug:
+#       msg: "Hi username is: {{USERNAME}} and Your Password is: {{PASSWORD}}"
