@@ -6,6 +6,7 @@
     Duration: 100Hrs
   tasks:
     - name: print over ride information
+      vars:
         Course: Ansible
         Trainer: jhone
         Duration: 50Hrs
@@ -13,9 +14,6 @@
           msg: "Hi, Iam Hemanth Kumar doing {{Course}} course Near trainer {{Trainer}} and course duration is {{Duration}}"
 
     - name: print over ride information
-        Course: AWs
-        Trainer: Kranthi
-        Duration: 80Hrs
       ansible.builtin.debug:
           msg: "Hi, Iam Hemanth Kumar doing {{Course}} course Near trainer {{Trainer}} and course duration is {{Duration}}"
 
