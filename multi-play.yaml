@@ -10,7 +10,7 @@
   tasks:
   - name: Play-2 and Task-1
     ansible.builtin.debug:
-      msg: "Hello iam from Play-2 and Task-1"    
+      msg: "Hello iam from Play-2 and Task-2"    
 
 
 
