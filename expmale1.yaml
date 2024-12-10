@@ -1,0 +1,13 @@
+---
+- name: play book to setup server
+  hosts: web
+  become: yes
+  vars:
+    web_root: /var/www/html
+    web_service: httpd
+  
+  tasks:
+    - name: Install Apace web server
+      ansible.builtin.yum:
+       name: "{{web service}}"
+       state: present

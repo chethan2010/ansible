@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "../../terraform_vpc-Dev"
+		},
+		{
+			"path": "../../kuberneties/k8-resource"
+		},
+		{
+			"path": "../../k8-admin"
+		},
+		{
+			"path": "../../pyhon-dev"
+		},
+		{
+			"path": "../../Linux"
+		},
+		{
+			"path": "../../shell-scripting"
+		},
+		{
+			"path": "../../Roboshop-shell"
+		},
+		{
+			"path": "../../docker"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
