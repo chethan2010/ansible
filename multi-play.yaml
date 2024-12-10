@@ -27,3 +27,22 @@
   #   - name: PLAY-2 and TASK-1
   #     ansible.builtin.debug:
   #       msg: "Hello I am from PLAY-2 and TASK-1"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
