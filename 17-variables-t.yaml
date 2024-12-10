@@ -1,0 +1,23 @@
+- name: variables
+  hosts: localhost
+  vars: #variable declaration or defintion  
+    Course: Devops
+    Trainer: Shiva 
+    Duration: 100Hrs
+  tasks:
+    - name: print over ride information
+        Course: Ansible
+        Trainer: jhone
+        Duration: 50Hrs
+      ansible.builtin.debug:
+          msg: "Hi, Iam Hemanth Kumar doing {{Course}} course Near trainer {{Trainer}} and course duration is {{Duration}}"
+
+    - name: print over ride information
+        Course: AWs
+        Trainer: Kranthi
+        Duration: 80Hrs
+      ansible.builtin.debug:
+          msg: "Hi, Iam Hemanth Kumar doing {{Course}} course Near trainer {{Trainer}} and course duration is {{Duration}}"
+
+
+

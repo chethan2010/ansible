@@ -1,6 +1,6 @@
 - name: variables
   hosts: localhost
-  vars:
+  vars: #variable declaration or defintion  
     Course: Devops
     Trainer: Shiva 
     Duration: 100Hrs
