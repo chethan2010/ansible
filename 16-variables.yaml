@@ -1,9 +1,9 @@
 - name: variables
   hosts: localhost
   tasks:
-    -name: print information
-     ansible.builtin.debug:
-        msg: "Hi, Iam Hemanth Kumar doing  devops course Near trainer shivakumar and course duration is 160Hrs"
+    - name: print information
+      ansible.builtin.debug:
+          msg: "Hi, Iam Hemanth Kumar doing  devops course Near trainer shivakumar and course duration is 160Hrs"
 
 
 
