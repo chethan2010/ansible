@@ -2,5 +2,5 @@
   hosts: localhost
   tasks:
   - name: get from args
-    ansisble.builtin.debug:
+    ansible.builtin.debug:
        msg: "Hi iam {{Person}} and {{Wishes}}"
